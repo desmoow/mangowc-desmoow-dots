@@ -2,15 +2,16 @@
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: hacknerdfont;
+    font-family: MartianMonoNerdFont;
     font-size: 15px;
+    opacity: 1;
 }
 
 window#waybar {
-    background-color: #282828;
-    color: #ebdbb2;
+    background-color: rgba(40, 40, 40, 1);
+    color: rgba(235, 219, 178, 1);
     transition-property: background-color;
-    transition-duration: .5s;
+    transition-duration: .5s; 
 }
 
 window#waybar.hidden {
@@ -52,15 +53,15 @@ button:hover {
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
-    color: #ebdbb2;
+    color: #a89984;
 }
 
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
-    color: #a89984;
+    color: #ebdbb2;
 }
 #workspaces button.active{
-    color: #a89984;
+    color: #ebdbb2;
 }
 
 #workspaces button.focused {
