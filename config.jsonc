@@ -20,8 +20,6 @@
 	"group/tray-expander",
 	"privacy",
         "pulseaudio",
-        "network",
-	"bluetooth",
         "battery",
         "clock",
     "calendar"
@@ -51,15 +49,15 @@
 	"on-click-right": "deactivate",
 	"sort-by-id": true,
   "format-icons": {
-        "1": "一",
-        "2": "二",
-        "3": "三",
-        "4": "四",
-        "5": "五",
-        "6": "六",
-        "7": "七",
-        "8": "八",
-        "9": "九",
+    "1": "일",
+    "2": "이",
+    "3": "삼",
+    "4": "사",
+    "5": "오",
+    "6": "육",
+    "7": "칠",
+    "8": "팔",
+    "9": "구",
     },
 	"persistent-workspaces": {
 	    "*": 5
@@ -148,7 +146,7 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon}",
+        "format": "volume= {volume}%",
         "format-bluetooth": "{volume}% {icon}",
         "format-bluetooth-muted": "󰟎",
         "format-muted": "󰝟 ",
